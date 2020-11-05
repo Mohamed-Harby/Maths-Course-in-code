@@ -5,11 +5,6 @@
 using namespace std;
 
 vector<pair<double,double>>points;
-char getsign(double x){
-    if(x > 0) return '+';
-    else if(x > 0) return '-';
-    return ' ';
-}
 void printLinearForm(double a,double b){
         cout << fixed << setprecision(3)<< "The approximate linear equation is: " << a <<"*x ";
         if(b == 0) {cout << endl; return;}
